@@ -40,3 +40,14 @@
         justify-content: space-around;
         margin-top: 40px;
     }
+    #overlay{
+        height: 50vh;
+        width: 100vw;
+        padding-top: 150px;
+        position: absolute;
+        background: rgb(0, 0, 0.1, 0.5);
+        color: whitesmoke;
+        text-align: center;
+        
+    }
+
