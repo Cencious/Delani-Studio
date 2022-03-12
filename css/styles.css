@@ -2,3 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.welcome-image{
+    background: url("../Images/backgrounds/h_img.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative; 
+    }
