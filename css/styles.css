@@ -22,5 +22,8 @@
     }
     .services{
         background: url(../Images/backgrounds/s_image.jpg);
-        
+        height: 50vh;
+        width: 100vw;
+        background-size: cover;
+        position: relative;
     }
