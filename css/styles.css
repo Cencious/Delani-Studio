@@ -62,4 +62,30 @@
         text-align: center;
         padding-top: 311px;
     }
-
+    .overlay h1{
+        margin: 30px; 
+     }
+     .column{
+         flex: 1;
+         margin: 5px;
+     }
+     .portfolio{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: flex-start;
+         
+     }
+     .portfolio-content h2{
+         text-align: center;
+         margin-top: 30px;
+     }
+.contact-us{
+    background: url(/Images/backgrounds/c_image.jpg);
+    height: 100vh;
+     width: 100vw;
+     background-size: cover;
+     position: relative;
+        
+}
