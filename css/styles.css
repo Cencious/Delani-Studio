@@ -75,7 +75,6 @@
          flex-direction: row;
          justify-content: flex-start;
          align-items: flex-start;
-         
      }
      .portfolio-content h2{
          text-align: center;
@@ -83,9 +82,39 @@
      }
 .contact-us{
     background: url(/Images/backgrounds/c_image.jpg);
-    height: 100vh;
+    height: 70vh;
      width: 100vw;
      background-size: cover;
-     position: relative;
-        
+     position: relative;    
 }
+.contact-us h2{
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    padding: 15px 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.button:hover{
+    background: none;
+    color: white;
+}
+form .row input, form .textarea textarea{
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+form .row input::placeholder, form .textarea textarea::placeholder{
+    color: white;
+}
+footer{
+    text-align: center;
+}
+footer .icons{
+    display: flex;
+    padding: 20px 10px;
+    justify-content: center;
+}
+
+  
