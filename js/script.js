@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $(".work").click(function(){
-        $(this).find("p").toggle()
-        $(this).find(".image-hide").toggle() 
+    $(".icon").click(function(){
+        $(this).find(".design-image").toggle()
+        $(this).find(".hidden-p").toggle() 
     })
 })

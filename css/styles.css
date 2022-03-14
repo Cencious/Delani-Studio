@@ -35,11 +35,17 @@
         text-align: center;
         margin-top: 30px;
     }
-    .images{
+    .what-we-do .images{
         display: flex;
+        flex: 1;
         justify-content: space-around;
         margin-top: 40px;
+        text-align: center;
     }
+    .what-we-do .images p{
+        padding: 10px;
+        text-align: justify;
+    }   
     #overlay{
         height: 50vh;
         width: 100vw;
@@ -75,10 +81,19 @@
          flex-direction: row;
          justify-content: flex-start;
          align-items: flex-start;
+         
+     }
+     .portfolio .column .overlay-text{
+         position: absolute;
      }
      .portfolio-content h2{
          text-align: center;
          margin-top: 30px;
+     }
+     .portfolio .column .overlay-text p{
+         position: relative;
+
+
      }
 .contact-us{
     background: url(/Images/backgrounds/c_image.jpg);
@@ -116,5 +131,11 @@ footer .icons{
     padding: 20px 10px;
     justify-content: center;
 }
+.icon{
+    width: 30%;
+}
+.hidden-p{
+    display: none;
 
+}
   
