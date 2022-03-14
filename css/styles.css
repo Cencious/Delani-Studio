@@ -1,141 +1,151 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.Welcome-image{
-    background: url("../Images/backgrounds/h_img.jpg");
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    position: relative; 
-    }
-    .about-us{
-        text-align: center;
-        width: 70%;
-        align-items: center;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .services{
-        background: url("../Images/backgrounds/s_image.jpg");
-        height: 50vh;
-        width: 100vw;
-        background-size: cover;
-        position: relative;
-    }
-    .what-we-do{
-        display: flex;
-        flex-direction: column;
-    }
-    .what-we-do h2{
-        text-align: center;
-        margin-top: 30px;
-    }
-    .what-we-do .images{
-        display: flex;
-        flex: 1;
-        justify-content: space-around;
-        margin-top: 40px;
-        text-align: center;
-    }
-    .what-we-do .images p{
-        padding: 10px;
-        text-align: justify;
-    }   
-    #overlay{
-        height: 50vh;
-        width: 100vw;
-        padding-top: 150px;
-        position: absolute;
-        background: rgb(0, 0, 0.1, 0.5);
-        color: whitesmoke;
-        text-align: center; 
-    }
-    #overlay p{
-      width: 60%;
-      margin: auto;  
-    }
-    .overlay{
-        position: absolute;
-        height: 100vh;
-        width: 100vw;
-        background: rgb(0,0,0.1,0.5);
-        color: whitesmoke;
-        text-align: center;
-        padding-top: 311px;
-    }
-    .overlay h1{
-        margin: 30px; 
-     }
-     .column{
-         flex: 1;
-         margin: 5px;
-     }
-     .portfolio{
-         display: flex;
-         flex-wrap: wrap;
-         flex-direction: row;
-         justify-content: flex-start;
-         align-items: flex-start;
-         
-     }
-     .portfolio .column .overlay-text{
-         position: absolute;
-     }
-     .portfolio-content h2{
-         text-align: center;
-         margin-top: 30px;
-     }
-     .portfolio .column .overlay-text p{
-         position: relative;
-
-
-     }
-.contact-us{
-    background: url(/Images/backgrounds/c_image.jpg);
-    height: 70vh;
-     width: 100vw;
-     background-size: cover;
-     position: relative;    
+.Welcome-image {
+  background: url("../Images/backgrounds/h_img.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
 }
-.contact-us h2{
-    text-align: center;
+.about-us {
+  text-align: center;
+  width: 70%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.services {
+  background: url("../Images/backgrounds/s_image.jpg");
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+}
+.what-we-do {
+  display: flex;
+  flex-direction: column;
+}
+.what-we-do h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.what-we-do .images {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin-top: 40px;
+  text-align: center;
+}
+.what-we-do .images p {
+  padding: 10px;
+  text-align: justify;
+}
+#overlay {
+  height: 50vh;
+  width: 100vw;
+  padding-top: 150px;
+  position: absolute;
+  background: rgb(0, 0, 0.1, 0.5);
+  color: whitesmoke;
+  text-align: center;
+}
+#overlay p {
+  width: 60%;
+  margin: auto;
+}
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 0, 0.1, 0.5);
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 311px;
+}
+.overlay h1 {
+  margin: 30px;
+}
+.column {
+  flex: 1;
+  margin: 5px;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.portfolio .column .overlay-text {
+  position: absolute;
+  top: 10px;
+  color: white;
+  left: 10px;
+  border: 2px solid white;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+.portfolio> .column> .overlay-text> p{
     padding: 10px;
+    
 }
-.button{
-    padding: 15px 35px;
-    border: 1px solid white;
-    border-radius: 5px;
+    
+.portfolio-content h2 {
+  text-align: center;
+  margin-top: 30px;
 }
-.button:hover{
-    background: none;
-    color: white;
+.portfolio .column{
+  position: relative;
 }
-form .row input, form .textarea textarea{
-    background: none;
-    color: white;
-    border: 1px solid white;
+.contact-us {
+  background: url(/Images/backgrounds/c_image.jpg);
+  height: 70vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
 }
-form .row input::placeholder, form .textarea textarea::placeholder{
-    color: white;
+.contact-us h2 {
+  text-align: center;
+  padding: 10px;
 }
-footer{
-    text-align: center;
+.button {
+  padding: 15px 35px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
-footer .icons{
-    display: flex;
-    padding: 20px 10px;
-    justify-content: center;
+.button:hover {
+  background: none;
+  color: white;
 }
-.icon{
-    width: 30%;
+form .row input,
+form .textarea textarea {
+  background: none;
+  color: white;
+  border: 1px solid white;
 }
-.hidden-p{
-    display: none;
+form .row input::placeholder,
+form .textarea textarea::placeholder {
+  color: white;
+}
+footer {
+  text-align: center;
+}
+footer .icons {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: center;
+}
+.icon {
+  width: 30%;
+}
+.hidden-p {
+  display: none;
+}
 
-}
-  

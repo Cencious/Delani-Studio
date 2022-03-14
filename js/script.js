@@ -3,4 +3,7 @@ $(document).ready(function(){
         $(this).find(".design-image").toggle()
         $(this).find(".hidden-p").toggle() 
     })
+    $(".column").hover(function(){
+        $(this).find(".overlay-text").toggle()
+    })
 })
