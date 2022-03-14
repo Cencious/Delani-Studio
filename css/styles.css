@@ -105,7 +105,7 @@
   position: relative;
 }
 .contact-us {
-  background: url(/Images/backgrounds/c_image.jpg);
+  background: url("../Images/backgrounds/c_image.jpg");
   height: 70vh;
   width: 100vw;
   background-size: cover;
