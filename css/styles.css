@@ -139,7 +139,7 @@ footer {
 }
 footer .icons {
   display: flex;
-  padding: 20px 10px;
+  padding: 10px 10px;
   justify-content: center;
 }
 .icon {
@@ -147,4 +147,7 @@ footer .icons {
 }
 .hidden-p {
   display: none;
+}
+.icons{
+    margin: 5px 20px;
 }
