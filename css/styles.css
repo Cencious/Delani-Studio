@@ -91,17 +91,17 @@
   right: 10px;
   bottom: 10px;
 }
-.portfolio> .column> .overlay-text> p{
-    padding: 10px;
-}    
-.portfolio .column .overlay-text{
-    display: none;
+.portfolio > .column > .overlay-text > p {
+  padding: 10px;
+}
+.portfolio .column .overlay-text {
+  display: none;
 }
 .portfolio-content h2 {
   text-align: center;
   margin-top: 30px;
 }
-.portfolio .column{
+.portfolio .column {
   position: relative;
 }
 .contact-us {
@@ -148,4 +148,3 @@ footer .icons {
 .hidden-p {
   display: none;
 }
-
