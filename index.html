@@ -174,7 +174,7 @@
                   type="text"
                   class="form-control"
                   id="name"
-                  placeholder="Name..."
+                  placeholder="Name..." required
                 />
               </div>
               <div class="col">
@@ -182,7 +182,7 @@
                   type="email"
                   class="form-control"
                   id="email"
-                  placeholder="Email..."
+                  placeholder="Email..." required
                 />
               </div>
             </div>
@@ -193,11 +193,11 @@
                 cols="120"
                 rows="10"
                 class="form-control"
-                placeholder="Your message here..."
+                placeholder="Your message here..." required
               ></textarea>
             </div>
             <div class="submit">
-              <button type="submit" class="button">Submit</button>
+              <button type="submit" class="button" onclick="feedback()">Submit</button>
             </div>
           </form>
         </div>
